@@ -13,7 +13,7 @@ What is the relationship between income and proportion of vegetated land cover a
 
 #### _Hypotheses_
 1. Census Tracts with lower median incomes will experience lower access to green spaces
-2. There is a spatial relationshhip between communities with low access to green spaces
+2. There is a spatial relationship between communities with low access to green spaces
 
 #### _Motivation_
 My motivation for pursuing this topic is to better understand which communities in the Bay Area are most excluded from sustainable developments. Having grown up in Alameda County, I call the Bay Area my home and would like to have a positive impact as a future planner in these communities.
@@ -64,6 +64,7 @@ The urban rural divide is the concept that there is a strong divide in land use,
 
 ##### **Figure 6:** County 'Places' Level Relationship Between Median Income and Proportion Vegetation Cover
 <img width="278" alt="Screenshot 2022-05-09 162845" src="https://user-images.githubusercontent.com/60239725/167534273-810f204d-d28f-46a6-82fc-1d0f5a9e2025.png">
+
 Figure 6 above shows the changes in R-Squared Values for the nine counties after accounting for the urban rural divide. The results are insignificant, in that there was no trend in how the R-Squared values changed amongst the counties. While some counties experienced a slight increase and others a slight decrease, no change was highly significant.
 
 Figure 7 below shows a scatterplot of the relationship between Median Income and Proportion Vegetation Cover, with the colors identifying the Counties and the size representing the population of each census designated place.
@@ -82,7 +83,7 @@ In the figure above each point represents a census designated place. While the s
 
 
 #### _Places Level Association_
-Since the relationships between income and vegetation were insignificant at the county level of analysis, the next step is to look at a more granular geography. The next part of this anlysis is examining the relationship between income and vegetation by Place using census tracts. Figure 9, 11, and 13 below shows tables with the R-Squared values for each place within Alameda, Contra Costa, and Solano Counties, respectively. Figures 10, 12, and 14 show the scatter plots for each of these places. These three counties were chosen since they were the counties with the highest R-Squared values from the conty level analysis. Places with less than 10 census tracts were excluded from this anlysis, as the sample size is too small.
+Since the relationships between income and vegetation were insignificant at the county level of analysis, the next step is to look at a more granular geography. The next part of this analysis is examining the relationship between income and vegetation by Place using census tracts. Figure 9, 11, and 13 below shows tables with the R-Squared values for each place within Alameda, Contra Costa, and Solano Counties, respectively. Figures 10, 12, and 14 show the scatter plots for each of these places. These three counties were chosen since they were the counties with the highest R-Squared values from the county level analysis. Places with less than 10 census tracts were excluded from this analysis, as the sample size is too small.
 
 
 ##### **Figure 9:** Places Level Relationship Between Median Income and Proportion Vegetation Cover for Alameda County
@@ -136,7 +137,7 @@ Based on these plots and tables, Castro Valley, El Cerrito, Berkeley, Vallejo, a
 ### **KEY FINDINGS**
 
 #### _High Disparity Clustering_
-Figure 19 shows the boundaries of the 5 cities with the largest disparities in access to green space: Castro Valley, El Cerrito, Berkeley, Vallejo, and Oakland. These 5 cities are all relatively close to each other, with 4 of them sharing boundary edges. This shows that disparities in access to green space have a spatial correlation. This correlation is more granular than a county level anlaysis, yet still spans several cities. In the case of these 5 cities, elevation plays a key role in the observed disparity. Four of the five cities in the east bay contain sections of the East Bay Hills. The Hills provide ample green space, and house a large population of affluent residents. Meanwhile, communities down the hill towards the Bay shore are typically of a lower socioeconomic standing, and live in more dense areas with less opportunities for green space.
+Figure 19 shows the boundaries of the 5 cities with the largest disparities in access to green space: Castro Valley, El Cerrito, Berkeley, Vallejo, and Oakland. These 5 cities are all relatively close to each other, with 4 of them sharing boundary edges. This shows that disparities in access to green space have a spatial correlation. This correlation is more granular than a county level analysis, yet still spans several cities. In the case of these 5 cities, elevation plays a key role in the observed disparity. Four of the five cities in the east bay contain sections of the East Bay Hills. The Hills provide ample green space, and house a large population of affluent residents. Meanwhile, communities down the hill towards the Bay shore are typically of a lower socioeconomic standing and live in more dense areas with less opportunities for green space.
 
 
 ##### **Figure 19:** Cities with Disproportionate Access to Green Space
@@ -144,7 +145,7 @@ Figure 19 shows the boundaries of the 5 cities with the largest disparities in a
 
 
 #### _Connection to Redlining_
-The next key finding relates to historical redlining, described at the beginning of this research blog. Figure 20 shows a map of the communities with the most disproportionate access to green space. These communities were identified by combining the lowest quartile values of vegetation cover and median income. Overlayed on top of the census tracts are outlines of the historical redlining districts. In red are communities with grade 'D,' the 'hazardous communities,' and in orange are communities with grade 'C.' As shown, these historical districts align very well with disadvantaged communities today. Almost the entirety of these redlined areas still experience barriers in access to public services. 
+The next key finding relates to historical redlining, described at the beginning of this research blog. Figure 20 shows a map of the communities with the most disproportionate access to green space. These communities were identified by combining the lowest quartile values of vegetation cover and median income. Overlayed on top of the census tracts are outlines of the historical redlining districts. In red are communities with grade 'D,' the 'hazardous communities,' and in orange are communities with grade 'C.' As shown, these historical districts align very well with disadvantaged communities today. Almost the entirety of these redlined areas still experiences barriers in access to public services. 
 
 
 ##### **Figure 20:** Relationship Between Historical Redlining and Present Day Disproportionate Access to Green Space
@@ -155,10 +156,27 @@ The next key finding relates to historical redlining, described at the beginning
 ### **Discussion**
 
 #### _Implications_
-
+While the Bay Area, and California at large, does a fairly decent job at avoiding inequities, there is still work that needs to be done. This project showed that there are still noticeable disparities in access to green space in the Bay Area, and especially in the East Bay. Since these spatial relationships are more significant on a granular scale, this is a job for local and community planners/activists. While regional planning has many benefits, the beginning of this analysis showed that access to green space is not spatially significant at the county level. However, planners need to be sensitive to community needs when addressing access to green space. The relationship between mean income and vegetation cover could also be attributed to a process known as environmental/green gentrification. While the implementation of urban parks and green/blue spaces has many sustainability and health benefits for communities, these public investment interventions can also lead to the influx of higher income residents to the area. Previous studies have examined the relationship between sustainability initiatives and their unintended consequences of causing gentrification. Planners need to be diligent to ensure that the communities they plan green spaces for are the same communities that will get to experience the benefits.
 
 #### _Limitations_
+While this research project was able to draw some conclusions, there are many limitations to consider. First, access to green space was defined using canopy cover from satellite imagery. While this is accurate for showing observed greenery, urban parks and open spaces can take many forms in addition to vegetated surfaces. Next, the spatial analyses performed in this analysis were aggregated to the census tract scale. While this is the most granular level analysis available to me, it still generalizes access and demographic information. 
 
 
 #### _Future Research_
+The next steps in building on this project would be analyze other variables beyond median income. Other variables I would like to include in future research are minority populations, population in poverty, population without a bachelor’s degree, population that does not speak english, and renter population. Another step I would like to take with this project is trying to analyze and quantiatively measure environmental gentrification. By analyzing when green space developments were completed, census characteristics can be used to measure the demographic change a neighborhood may experience during a development timeframe. While this does not necessarily mean causation, it is an interesting place to start. Lastly, I would like to build on this anlysis by expanding beyond green space. Sustainable developments can take on many projects, such as bike lane infrastructure projects. To get a more comprehensive understanding of the Sustainability Class, I would need to venture beyond vegetation.
 
+
+
+### **Sources**
+
+1. Agyeman, J. (2020, July 27). Urban planning as a tool of white supremacy – the other lesson from Minneapolis. Retrieved from https://theconversation.com/urban-planning-as-a-tool-of-white-supremacy-the-other-lesson-from-minneapolis-142249.
+2. Anderson, M. (2020, January 14). Racist housing practices from the 1930s linked to HOTTER Neighborhoods Today. Retrieved from https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today.
+3. Brundtland, G. (1987). Report of the World Commission on Environment and Development: Our Common Future. United Nations General Assembly document A/42/427. https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf
+4. Carter, J. G., Cavan, G., Connelly, A., Guy, S., Handley, J., & Kazmierczak, A. (2015). Climate change and the city: Building capacity for urban adaptation. Progress in Planning, 95, 1–66. https://doi-org.libproxy.berkeley.edu/10.1016/j.progress.2013.08.001.
+5. Chu, E., Anguelovski, I., & Roberts, D. (2017). Climate adaptation as strategic urbanism: assessing opportunities and uncertainties for equity and inclusive development in cities. Cities, 60(Part A), 378–387. https://doi-org.libproxy.berkeley.edu/10.1016/j.cities.2016.10.016.
+6. Curran, W., & Hamilton, T. (2012). Just green enough: contesting environmental gentrification in Greenpoint, Brooklyn. Local Environment, 17(9), 1027–1042. https://doi-org.libproxy.berkeley.edu/10.1080/13549839.2012.729569.
+7. Ernstson, H. (2013). The social production of ecosystem services: A framework for studying environmental justice and ecological complexity in urbanized landscapes. Landscape and Urban Planning, 109(1), 7–17. https://doi-org.libproxy.berkeley.edu/10.1016/j.landurbplan.2012.10.005.
+8. Gould, K. A., & Lewis, T. L. (2018). From Green Gentrification to Resilience Gentrification: An Example from Brooklyn. CITY & COMMUNITY, 17(1), 12–15. https://doi-org.libproxy.berkeley.edu/10.1111/cico.12283.
+9. Penney, V. (2020, September 30). Denver wants to fix a legacy of ENVIRONMENTAL RACISM. Retrieved from https://www.nytimes.com/2020/09/30/climate/city-parks.html.
+10. Wen, M., Zhang, X., Harris, C. D., Holt, J. B., & Croft, J. B. (2013). Spatial disparities in the distribution of parks and green spaces in the USA. Annals of behavioral medicine : a publication of the Society of Behavioral Medicine, 45 Suppl 1(Suppl 1), S18–S27. https://doi.org/10.1007/s12160-012-9426-x
+11. Xing, Liu, Y., & Liu, X. (2018). Measuring spatial disparity in accessibility with a multi-mode method based on park green spaces classification in Wuhan, China. Applied Geography (Sevenoaks), 94, 251–261. https://doi.org/10.1016/j.apgeog.2018.03.014
