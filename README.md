@@ -19,6 +19,7 @@ My motivation for pursuing this topic is to better understand which communities 
 
 
 ### **METHODS AND ANALYSIS**
+For this analysis proportion vegetation cover was used to estimate access to green open spaces. Vegetation cover was calculated using NDVI values derived from satellite imagery. While NDVI does not equate to open space, it is useful in measuring the relative amount of greenspace in each census tract across large geographies. Proportion vegetation cover was summarized by census tract to be at the same analysis level as the census income data.
 
 #### _Study Area_
 The study area chosen for this project are the Nine Bay Area counties. This project analyzes access to vegetated land cover at the county scale, city/place scale, and at the census tract scale. Through assessing spatial relationships between vegetation cover and socioeconomic status, this project identifies disadvantaged communities in the Bay Area experiencing environmental injustices.
@@ -31,7 +32,23 @@ The data sources used for this analysis are as follows:
   - University of Richmond Mapping Inequality Project
 
 
-#### _County Level Analysis_
+#### _County Level Association_
+Figure 1 below shows a map of the census tracts that make up the Nine Bay Area Counties. Figure 2 shows the proportion vegetation cover by census tract for the same geography. As expected, the more urbanized areas near city centers have a low amount of observed vegetation cover when compared to the rural and forested areas that surround Bay Area Cities.
+
+##### **Figure 1:** Bay Area Census Tracts by County
+<img width="719" alt="Screenshot 2022-05-09 162738" src="https://user-images.githubusercontent.com/60239725/167530987-148e79f4-fb1e-4e10-833c-c7a04d203543.png">
+
+##### **Figure 2:** Proportion Vegetation Cover by Census Tract
+<img width="719" alt="Screenshot 2022-05-09 193708" src="https://user-images.githubusercontent.com/60239725/167531542-1564bfbc-a824-4a53-a28c-098942866f56.png">
+
+##### **Figure 3:** County Level Relationship Between Median Income and Proportion Vegetation Cover
+<img width="277" alt="Screenshot 2022-05-09 162817" src="https://user-images.githubusercontent.com/60239725/167531953-f2dc652d-8e9a-4bed-9c07-4af015ba57c5.png"> Figure 3 is a table with the R-Squared values showing the relationship between Median Income and Vegetation Cover for each of the nine counties. The R-Squared values show that there is not a significant relationship between these two variables for any of the counties. Out of the nine, Contra Costa County, Alameda County, and Solano COunty have the most significant relationship, but they are not significant enough. This shows us that access to green space is not spatialy significant at a regional scale.
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/cjkees/The-Sustainability-Class/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
