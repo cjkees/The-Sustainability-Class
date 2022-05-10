@@ -1,4 +1,4 @@
-## **Income Disparities in Access to Green Space in the Nine Bay Area Countines**
+## **Income Disparities in Access to Green Space in the Nine Bay Area Counties**
 by Cam Kees | CP 255 | Spring 2022
 
 ### **INTRODUCTION**
@@ -46,10 +46,10 @@ Figure 1 below shows a map of the census tracts that make up the Nine Bay Area C
 
 ##### **Figure 3:** County Level Relationship Between Median Income and Proportion Vegetation Cover
 <img width="277" alt="Screenshot 2022-05-09 162817" src="https://user-images.githubusercontent.com/60239725/167531953-f2dc652d-8e9a-4bed-9c07-4af015ba57c5.png"> 
-Figure 3 is a table with the R-Squared values showing the relationship between Median Income and Vegetation Cover for each of the nine counties. The R-Squared values show that there is not a significant relationship between these two variables for any of the counties. Out of the nine, Contra Costa County, Alameda County, and Solano COunty have the most significant relationship, but they are not significant enough. This shows us that access to green space is not spatialy significant at a regional scale.
+Figure 3 is a table with the R-Squared values showing the relationship between Median Income and Vegetation Cover for each of the nine counties. The R-Squared values show that there is not a significant relationship between these two variables for any of the counties. Out of the nine, Contra Costa County, Alameda County, and Solano County have the most significant relationship, but they are not significant enough. This shows us that access to green space is not spatially significant at a regional scale.
 
 #### _Urban Rural Divide_
-The urban rural divide is the concept that there is a strong divide in land use, policy, and politics between urban and rural areas. By nature, rural areas have amuch larger proportion of vegetation cover than urban areas because there is more land and less density. In order to account for the urban rural divide, this analysis clipped the census tracts to only include tracts that fall within census designated 'places.' These include cities, towns,a nd a handful of other designated places.  This is not the most accurate way of accounting for the divide, but it is efficient for analyzing large geographies. Figure 4 and 5 below show the clipped County Boundaries and the Proportion Vegetation Cover within these new defined areas.
+The urban rural divide is the concept that there is a strong divide in land use, policy, and politics between urban and rural areas. By nature, rural areas have a much larger proportion of vegetation cover than urban areas because there is more land and less density. To account for the urban rural divide, this analysis clipped the census tracts to only include tracts that fall within census designated 'places.' These include cities, towns, and a handful of other designated places.  This is not the most accurate way of accounting for the divide, but it is efficient for analyzing large geographies. Figures 4 and 5 below show the clipped County Boundaries and the Proportion Vegetation Cover within these new defined areas.
 
 
 ##### **Figure 4:** Bay Area Census Tracts by County 'Places'
@@ -62,20 +62,81 @@ The urban rural divide is the concept that there is a strong divide in land use,
 
 ##### **Figure 6:** County 'Places' Level Relationship Between Median Income and Proportion Vegetation Cover
 <img width="278" alt="Screenshot 2022-05-09 162845" src="https://user-images.githubusercontent.com/60239725/167534273-810f204d-d28f-46a6-82fc-1d0f5a9e2025.png">
-Figure 6 above shows the changes in R-Squared Values for the nin counties after accounting for the urban rural divide. The results are insignificant, in that there was no trend in how the R-Squared values changed amongst the counties. While some counties experienced a slight inclrease and others a slight decrease, no change was highly significant.
+Figure 6 above shows the changes in R-Squared Values for the nine counties after accounting for the urban rural divide. The results are insignificant, in that there was no trend in how the R-Squared values changed amongst the counties. While some counties experienced a slight increase and others a slight decrease, no change was highly significant.
 
-Figure 7 below shows a scatterplot of the relationship between Median Income and Proportion Vegetation Cover, with the colors identofying the Counties and the size representing the population of each census designated place.
+Figure 7 below shows a scatterplot of the relationship between Median Income and Proportion Vegetation Cover, with the colors identifying the Counties and the size representing the population of each census designated place.
 
 
 ##### **Figure 7:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover
 
 
-In the figure above each point represents a census designated place. While the scatterplot does not show a strong relationship between the two variables, there are a few interesting takeaways from this chart. The plot shows that each place within each County cluster together in terms of Median Income. While the range of Median Income across the whole region is large, the range within each county is relatively small. Next, the size of the points in the plot show that there is a relationship between population size and vegetation cover. Places with higher populations are geberally lower on the y-axis than less populated places. Figure 8 below shows a picked apart version of the above figure, separated into each different county.
+In the figure above each point represents a census designated place. While the scatterplot does not show a strong relationship between the two variables, there are a few interesting takeaways from this chart. The plot shows that each place within each County cluster together in terms of Median Income. While the range of Median Income across the whole region is large, the range within each county is relatively small. Next, the size of the points in the plot show that there is a relationship between population size and vegetation cover. Places with higher populations are generally lower on the y-axis than less populated places. Figure 8 below shows a picked apart version of the above figure, separated into each different county.
 
 
-##### **Figure8** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover by County
+##### **Figure 8** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover by County
 
 
 
 #### _Places Level Association_
-Since the relationships between income and vegetation were insignificant at the county level of analysis, the next step is to look at a more granular geography.  
+Since the relationships between income and vegetation were insignificant at the county level of analysis, the next step is to look at a more granular geography. The next part of this anlysis is examining the relationship between income and vegetation by Place using census tracts. Figure 9, 11, and 13 below shows tables with the R-Squared values for each place within Alameda, Contra Costa, and Solano Counties, respectively. Figures 10, 12, and 14 show the scatter plots for each of these places. These three counties were chosen since they were the counties with the highest R-Squared values from the conty level analysis. Places with less than 10 census tracts were excluded from this anlysis, as the sample size is too small.
+
+
+##### **Figure 9:** Places Level Relationship Between Median Income and Proportion Vegetation Cover for Alameda County
+<img width="367" alt="Screenshot 2022-05-09 211553" src="https://user-images.githubusercontent.com/60239725/167541874-d21a2d6f-880a-4e7e-9c3a-7043582e38c8.png">
+
+
+##### **Figure 10:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Alameda County
+
+
+##### **Figure 11:** Places Level Relationship Between Median Income and Proportion Vegetation Cover for Contra Costa County
+<img width="365" alt="Screenshot 2022-05-09 211615" src="https://user-images.githubusercontent.com/60239725/167541888-76631ad0-33d5-4a42-b211-fda14db07cd2.png">
+
+
+##### **Figure 12:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Contra Costa County
+
+
+##### **Figure 13:** Places Level Relationship Between Median Income and Proportion Vegetation Cover for Solano County
+<img width="362" alt="Screenshot 2022-05-09 211625" src="https://user-images.githubusercontent.com/60239725/167541902-ea183cb8-9140-4db0-a987-770daf60d602.png">
+
+
+##### **Figure 14:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Solano County
+
+
+Based on these plots and tables, Castro Valley, El Cerrito, Berkeley, Vallejo, and Oakland are the cities with largest discrepencies in access to green space. The scatter plots for these cities are shown below.
+
+
+##### **Figure 14:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Castro Valley
+
+
+##### **Figure 15:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for El Cerrito
+
+
+##### **Figure 16:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Berkeley
+
+
+##### **Figure 17:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Vallejo
+
+
+##### **Figure 18:** Scatterplot Relationship Between Median Income and Proportion Vegetation Cover for Oakland
+
+
+
+### **KEY FINDINGS**
+
+#### _High Disparity Clustering_
+Figure 19 shows the boundaries of the 5 cities with the largest disparities in access to green space: Castro Valley, El Cerrito, Berkeley, Vallejo, and Oakland. These 5 cities are all relatively close to each other, with 4 of them sharing boundary edges. This shows that disparities in access to green space have a spatial correlation. This correlation is more granular than a county level anlaysis, yet still spans several cities. In the case of these 5 cities, elevation plays a key role in the observed disparity. Four of the five cities in the east bay contain sections of the East Bay Hills. The Hills provide ample green space, and house a large population of affluent residents. Meanwhile, communities down the hill towards the Bay shore are typically of a lower socioeconomic standing, and live in more dense areas with less opportunities for green space.
+
+
+##### **Figure 19:** Cities with Disproportionate Access to Green Space
+<img width="611" alt="Screenshot 2022-05-09 214027" src="https://user-images.githubusercontent.com/60239725/167545241-f7d4a7e0-e744-4c8a-bab7-0ba8eb1dd2ec.png">
+
+
+#### _Connection to Redlining_
+The next key finding relates to historical redlining, described at the beginning of this research blog. Figure 20 shows a map of the communities with the most disproportionate access to green space. These communities were identified by combining the lowest quartile values of vegetation cover and median income. Overlayed on top of the census tracts are outlines of the historical redlining districts. In red are communities with grade 'D,' the 'hazardous communities,' and in orange are communities with grade 'C.' As shown, these historical districts align very well with disadvantaged communities today. Almost the entirety of these redlined areas still experience barriers in access to public services. 
+
+
+##### **Figure 20:** Relationship Between Historical Redlining and Present Day Disproportionate Access to Green Space
+<img width="634" alt="Screenshot 2022-05-09 215043" src="https://user-images.githubusercontent.com/60239725/167545860-bb0ae9ae-dce4-4f84-8e6b-f2fcce292520.png">
+
+
+
